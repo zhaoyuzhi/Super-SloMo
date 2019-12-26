@@ -108,6 +108,11 @@ Use `python eval.py --help` for more details
 
 More info TBA
 
+### Add by Yuzhi, the arbitary interpolation between two frames
+
+```bash
+python eval_frame.py --checkpoint=SuperSloMo.ckpt --first_frame='[Your PATH]' --second_frame='[Your PATH]' --scale=4
+```
 
 ## References:
 Parts of the code is based on [TheFairBear/Super-SlowMo](https://github.com/TheFairBear/Super-SlowMo)
